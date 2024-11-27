@@ -16,3 +16,39 @@ You can install the package via npm:
 ```bash
 npm install console-koko
 ```
+
+## Usage
+
+To use the package in your project, simply import the koko function and call it with your message.
+
+```bash
+import { koko } from "console-koko";
+
+koko("This is a simple string message!");
+```
+
+Output
+
+```
+                   //			       __
+ ww_          ___.///			      W._`\._
+o__ `._.-'''''    //			      |/ \   `-._._._.-//
+|/  \   ,     /   //			       _  \ `.__.'  _//
+     \  `',,,' _///			      `v'\_\`-.  \--'   _
+      `-.  \--'   .'.			    .^.`..    \_/_/   <'\-_//
+         \_/_/    `.,'			   .' `.  ``   // \\   `-.-'
+          \\\\				   `'_'`     -'` -'`    ''
+         ,,','`    			    ' `
+
+  K   K   OOO   K   K   OOO        K   K   OOO   K   K   OOO
+  K  K   O   O  K  K   O   O       K  K   O   O  K  K   O   O
+  KKK    O   O  KKK    O   O       KKK    O   O  KKK    O   O
+  K  K   O   O  K  K   O   O       K  K   O   O  K  K   O   O
+  K   K   OOO   K   K   OOO        K   K   OOO   K   K   OOO
+
+Message: This is a simple string message!
+Method: anonymous
+File: test.js
+Line: 3
+
+```
