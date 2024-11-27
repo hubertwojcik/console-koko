@@ -14,5 +14,5 @@
 You can install the package via npm:
 
 ```bash
-npm install console_koko
+npm install console-koko
 ```
