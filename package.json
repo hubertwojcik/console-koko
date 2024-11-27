@@ -1,6 +1,6 @@
 {
-  "name": "console_koko",
-  "version": "1.0.0",
+  "name": "console-koko",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,12 @@
   },
   "keywords": [],
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hubertwojcik/console-koko"
+  },
+  "bugs": {
+    "url": "https://github.com/hubertwojcik/console-koko/issues"
+  },
   "license": "ISC"
 }
